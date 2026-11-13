@@ -1,0 +1,9 @@
+pyspark
+pandas
+numpy
+pyarrow
+psycopg2-binary
+sqlalchemy
+python-dotenv
+pyyaml
+pytest

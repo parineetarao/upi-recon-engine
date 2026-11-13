@@ -1,0 +1,28 @@
+# Generated data (reproducible from the generator, so never commit)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Logs and caches
+*.log
+logs/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
