@@ -184,7 +184,7 @@ def main():
     build_npci_file(t).to_csv(OUT / "npci_switch_logs.csv", index=False)
     C.to_csv(OUT / "bank_settlements.csv", index=False)
     merchants.to_csv(OUT / "merchants.csv", index=False)
-    labels.to_csv(OUT / "_truth_labels.csv", index=False)   # validation only, never read by the pipeline
+    labels.to_csv(OUT / "truth_labels.csv", index=False)   # validation only, never read by the pipeline
 
     spike = t[t.in_spike]
     print(f"transactions: {len(t):,}")
