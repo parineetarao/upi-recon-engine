@@ -1,5 +1,5 @@
 pyspark
-pandas
+pandas<3
 numpy
 pyarrow
 psycopg2-binary
